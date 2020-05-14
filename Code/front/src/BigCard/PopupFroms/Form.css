@@ -1,0 +1,129 @@
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: #0000009a;
+  z-index: 99999;
+  cursor: auto;
+  
+}
+.popup_inner {
+  width: 592.867px;
+  position: absolute;
+  left: 27%;
+  right: 27%;
+  top: 3%;
+  bottom: 4%;
+  margin: auto;
+  border-radius: 5px;
+  background: transparent;
+  color:black;
+}
+.Cancel-Button {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 2px;
+  right: 80px;
+  font-weight: lighter;
+  color: gray;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.title-n-amount {
+  display: grid;
+  grid-template-columns: 50% 35%;
+  justify-content: space-between;
+  height: 5em;
+}
+
+.desc-n-date-cat {
+  display: grid;
+  grid-template-columns: 50% 35%;
+  justify-content: space-between;
+  height: 11em;
+}
+
+.form-date {
+  margin-top: -20px!important;
+  margin-bottom: 30px!important;
+}
+
+#pst {
+  background-color: #00bcd4;
+  color: #ffffff;
+  height: 46px;
+  width: 160px;
+  border: none;
+  padding: 10px;
+  appearance: none;
+  cursor: pointer;
+}
+
+
+/* #pstt {
+  background-color: #00bcd4;
+  color: #ffffff;
+  height: 46px;
+  width: 120px;
+  border: none;
+  padding: 10px;
+} */
+
+.recurring-switch {
+  cursor: pointer;
+}
+
+.title-of-add {
+  margin-bottom: -10px!important;
+}
+
+.form-end-date {
+  width: 50%!important;
+  display: none!important;
+}
+
+.form-due-date {
+  width: 50%!important;
+}
+
+.show-me {
+  display: block!important;
+}
+
+.disabled {
+  display: none!important;
+}
+
+.categ-title {
+  width: 70%!important;
+}
+
+.categ-color {
+  width: 70%!important;
+  border: 0!important;
+}
+
+.categ-form {
+  margin-left: 23%;
+}
+
+.categ-form :nth-child(2) label {
+  margin-top: -23px!important;
+}
+
+.hiiii {
+  margin-left: -28%!important;
+}
+
+#arrow{
+  position: absolute;
+  margin-top: 15px;
+  margin-left: -27px;
+  width: 17px;
+  height: 17px;
+}

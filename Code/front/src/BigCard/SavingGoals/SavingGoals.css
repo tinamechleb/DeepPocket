@@ -1,0 +1,74 @@
+.SG-Grid {
+    width: 750px;
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 50% 14%;
+}
+
+.SG-Card {
+    width: 160%;
+    height: 2.8em;
+    max-height: 2.8em;
+    margin-left: 15px;
+    background-color: #ffffffb2;
+    border-radius: 7px;
+    line-height: 2em;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.saving-acc {
+    display: grid;
+    grid-template-columns: 76% 7% 8% 7%!important;
+    margin-top: -5px;
+}
+
+.give-me-margins {
+    margin-top: 40px;
+    max-height: 388px!important;
+}
+
+.sav {
+    width: 40px;
+    height: 52px;
+}
+
+.sg-surprise {
+    margin-left: 15px;
+    width: 294%;
+    margin-bottom: 7px;
+}
+
+.sg-description {
+    width: 550px;
+}
+
+.Active-Title{
+  border-radius: 7px 7px 0 0;
+}
+
+.inlineFlex {
+    display: inline-flex;
+}
+
+.inlineFlexSpaceBetween {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+}
+
+.AddSav {
+    background: url('../../images/adding.png') no-repeat;
+    background-size: 100%;
+    margin-left: 10px;
+}
+
+.editSav {
+    margin-left: 1.2em;
+}

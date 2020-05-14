@@ -1,0 +1,71 @@
+
+.mainContainer{
+    margin :5%;
+    
+}
+.styleImg{
+    background-size: cover !important;
+    height: 300px !important;
+}
+.custom-checkbox{
+    text-align: left;
+}
+.container {
+    max-width: 80% !important ;
+    /* max-height: 40% !important ; */
+
+
+}
+
+.my-4 {
+    margin-top: 0 !important;
+  }
+
+#pstt{
+  background-color: #cdf3ff;
+  color: #002c26;
+  height: 46px;
+  width: 160px;
+  border: none;
+  padding: 10px;
+  appearance: none;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.hiiiii {
+    margin-left: -450px;
+    margin-bottom: 1em;
+}
+
+#chevron {
+    position: absolute;
+    left: 175px;
+    bottom: 249px;
+    width: 17px;
+    height: 17px;
+}
+
+#chevron2 {
+    position: absolute;
+    left: 182px;
+    bottom: 116px;
+    width: 17px;
+    height: 17px;
+}
+
+#chevron3 {
+    position: absolute;
+    left: 175px;
+    bottom: 120px;
+    width: 17px;
+    height: 17px;
+}
+
+.hallo {
+    margin-left: -55px;
+}
+
+.hola {
+    margin-left: 160px;
+}

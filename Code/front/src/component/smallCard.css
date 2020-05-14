@@ -1,0 +1,34 @@
+.containerOfItems{
+    display:flex !important ;
+    margin :0;
+    padding: 0;
+}
+.smallCardItem{
+    width:50%;
+    margin-left :4%;
+    margin-right:4%;
+    padding: 0;
+}
+.mainContainerOfSmallItems{
+    padding-left: 0%  !important;
+    padding-right: 0% !important;
+}
+.dollarSign{
+    text-align: right;
+    width: fit-content;
+}
+.rightText{
+    text-align: left;
+}
+.value{
+    width:30%;
+    text-align: right;
+    margin-right: 0;
+}
+.main{
+    border-radius: 15px !important;
+}
+
+#pleasedonttouch{
+    max-height: 76px!important;
+}

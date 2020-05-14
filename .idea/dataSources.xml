@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="b05_database_1@64.227.24.155" uuid="a734bc5c-0e7a-46d6-bfaf-ea56ffb551fa">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://64.227.24.155:3306/b05_database_1</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="db" uuid="a74a9750-e426-4e8b-8905-6d834f700ea2">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/Resources/tutorials/PHP/03_creating_crud/db.sqlite</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="db [2]" uuid="01789498-8808-4a83-ad5c-590b14dd0df6">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/Resources/tutorials/PHP/04_file_structures/db.sqlite</jdbc-url>
+    </data-source>
+  </component>
+</project>

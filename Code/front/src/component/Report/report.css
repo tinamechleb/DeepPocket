@@ -1,0 +1,31 @@
+.reportcontainer{
+margin :0.5%;
+width :100%;
+display: flex;
+}
+.head{
+    height:7vh;
+    width:100%;
+    margin: 0.5%;
+}
+.head>button{
+background-color: crimson;
+width: 150px;
+height: 70px;
+border: 2px solid;
+}
+.left{
+width:50%;
+height:75vh;
+margin:0 auto;
+}
+.right{
+    width:50%;
+    height:75vh;
+    margin:0 auto;
+}
+
+.onlyeditme .chartjs-render-monitor{
+    height:350px !important;
+    width: 680px!important;
+}

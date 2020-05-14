@@ -1,0 +1,257 @@
+.BigCard-Container {
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  margin: 2em;
+  /* margin-left: 8em; */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* width: 35em; */
+  width:100%;
+}
+
+.BigCard {
+  /* width: 590px; */
+  height: 80vh;
+  border-radius: 15px;
+  box-shadow: 10px 10px 13px 12px #03c79c4f;
+  width: 100%;
+}
+
+.Rest-Of-BigCard {
+  background-image: linear-gradient(#29b8c2,#CCE5FF);
+  border-radius: 15px;
+  height: 80vh;
+}  
+
+.tab-list {
+  margin-top: 0;
+  border-bottom: 1px solid #3dbdc9;
+  padding-left: 0;
+  background-color: #ffffff;
+  border-radius: 15px 15px 0px 0px;
+  font-weight: lighter;
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.1fr 1fr;
+}
+
+.tab-list-item {
+  display: inline-flex;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 1rem 1.762rem;
+
+}
+
+.tab-list-active {
+  background-color: #3dbdc9;
+  border: solid #3dbdc9;
+  border-width: 1px 1px 0 1px;
+  border-radius: 15px 15px 0px 0px;
+  color:#ffffff;
+  font-weight: normal;
+  display: flex;
+  justify-content: space-between;
+}
+
+h3 {
+  font-weight: normal;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 1317px) {
+  .Income-Card {
+    width: 120%;
+  }
+  .surprise {
+    width: 120%;
+  }
+  #accordion-basic {
+    grid-template-columns: 69.5% 14.5% 15%;
+  }
+  .BigCard {
+    width: 84%;
+  }
+  .SG-Card {
+    width: 525px;
+  }
+  .SG-Grid {
+    grid-template-columns: 28% 20%;
+  }
+  .sg-surprise {
+    width: 525px;
+  }
+}
+
+@media only screen and (max-width: 1272px) {
+  .Income-Card {
+    width: 110%;
+  }
+  .surprise {
+    width: 110%;
+  }
+  .catndate {
+    font-size: 11px;
+  }
+  .description {
+    font-size: 11px;
+  }
+  .petit-surprise {
+    font-size: 11px;
+  }
+  .CAT-Title {
+    padding-left: 0px;
+    font-size: 14px;
+  }
+  .category-subs {
+    margin-left: 0px;
+    padding-right: 0px;
+    margin-top: -5px;
+  }
+  #accordion-basic {
+    grid-template-columns: 67.5% 16.5% 15%;
+  }
+  .SG-Card {
+    width: 500px;
+  }
+  .SG-Grid {
+    grid-template-columns: 28% 20%;
+  }
+  .sg-surprise {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 1207px) {
+  .Income-Card {
+    width: 100%;
+  }
+  .surprise {
+    width: 100%;
+  }
+  #accordion-basic {
+    grid-template-columns: 66.5% 16.5% 15%;
+  }
+  .SG-Card {
+    width: 450px;
+  }
+  .SG-Grid {
+    grid-template-columns: 28% 20%;
+  }
+  .sg-surprise {
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 1183px) {
+  .Income-Card {
+    width: 80%;
+  }
+  .surprise {
+    width: 80%;
+    display: grid;
+    grid-template-rows: 40% 5%;
+  }
+  .catndate {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: -10px;
+    margin-bottom: -9px;
+  }
+  #accordion-basic {
+    grid-template-columns: 56.5% 20.5% 15%;
+  }
+  .tab-list {
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+  }
+  .SG-Card {
+    width: 430px;
+  }
+  .SG-Grid {
+    grid-template-columns: 28% 20%;
+  }
+  .sg-surprise {
+    width: 430px;
+  }
+  .sg-description {
+    width: 420px;
+  }
+}
+
+@media only screen and (max-width: 1164px) {
+  .tab-list {
+    font-size: 14px;
+  }
+  h3 {
+    font-size: 19px!important;
+  }
+}
+
+@media only screen and (max-width: 1117px) {
+  .tab-list {
+    overflow-x: auto;
+    overflow-y: hidden;
+    max-width: 300px;
+  }
+  #accordion-basic {
+    grid-template-columns: 58.5% 20.5% 15%;
+  }
+  .tabs {
+    width: 300px;
+  }
+  .Rest-Of-BigCard {
+    width: 300px;
+  }
+  .BigCard {
+    width: 300px;
+  }
+  .BigCard-Container {
+    width: 300px;
+  }
+  .Income {
+    display: unset;
+    margin-top: -20px;
+  }
+  .tab-content {
+    overflow-y: scroll;
+    max-height: 350px;
+    max-width: 300px;
+  }
+  .Make-Me-Scroll {
+    max-width: 95%;
+    max-height: 47vh;
+  }
+  .vl {
+    display: none;
+  }
+  .SG-Card {
+    width: 200px;
+    font-size: 12px;
+  }
+  .SG-Grid {
+    max-width: 290px;
+  }
+  .sg-surprise {
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  .sg-description {
+    width: 190px;
+    font-size: 10px;
+  }
+  .saving-acc {
+    margin-bottom: -10px;
+    margin-left: -13px;
+    display: grid;
+    grid-template-columns: 68% 18% 10%!important;
+  }
+  .give-me-margins {
+    margin-top: 13px;
+    overflow: scroll;
+    max-height: 60vh!important;
+  }
+  .sav {
+    width: 30px;
+    height: 42px;
+  }
+}

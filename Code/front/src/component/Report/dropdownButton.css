@@ -1,0 +1,12 @@
+
+#dropB {
+    background-color: #2BBBAD;
+    color: #ffffff;
+    height: 46px;
+    width: 160px;
+    border: none;
+    padding: 10px;
+    appearance: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }

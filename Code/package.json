@@ -1,0 +1,22 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "back": "cd back && npm start",
+    "front": "cd front && npm start",
+    "start": "concurrently --kill-others-on-fail --names \"back,front\" \"npm run back\" \"npm run front\"",
+    "postinstall": "cd front && npm install && cd .. && cd back && npm install"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "concurrently": "^5.1.0",
+    "react-bootstrap": "^1.0.0-beta.17",
+    "react-web-tabs": "^1.0.1",
+    "semantic-ui-react": "^0.88.2"
+  }
+}
